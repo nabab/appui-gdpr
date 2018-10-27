@@ -1,0 +1,24 @@
+{
+  "name": "bbn/appui-gdpr",
+  "description": "GDPR compliant terms for APPUI",
+  "keywords": ["privacy", "gdpr","appui"],
+  "homepage": "https://github.com/nabab/appui-cdn",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mirko Argentino",
+      "email": "mirko@bbn.solutions",
+      "homepage": "http://bbn.solutions",
+      "role": "Developer"
+    }, {
+      "name": "Thomas Nabet",
+      "email": "thomas.nabet@gmail.com",
+      "homepage": "http://bbn.solutions",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "bbn/bbn": "dev-master"
+  }
+}
