@@ -3,7 +3,7 @@
 return [
   'version' => '20170118',
   'site_url' => substr(BBN_URL, 0, -1),
-  'site_title' => _('Intranet APST'),
+  'site_title' => BBN_SITE_TITLE,
   'is_dev' => (bool)BBN_IS_DEV,
   'is_prod' => (bool)BBN_IS_PROD,
   'is_test' => (bool)BBN_IS_TEST,
