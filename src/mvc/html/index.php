@@ -37,7 +37,7 @@
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage">
-<div class="bbn-full-screen bbn-bg-white  bbn-flex-height" id="eula">
+<div class="bbn-overlay bbn-bg-white  bbn-flex-height" id="eula">
   <div class="bbn-w-100 bbn-justified bbn-lg bbn-lpadded">
     <h2 class="bbn-c">Avertissement</h2>
     <p>Ce site utilise des cookies. Veuillez lire et accepter les termes de notre politique de confidentialité afin de pouvoir y accéder.</p>
@@ -55,8 +55,8 @@
     </div>
   </div>
 </div>
-<script>
-  $(function(){
+<script>  
+  document.addEventListener('DOMContentLoaded', () => {  
     bbn.fn.init({
       env: {
         lang: "fr"
