@@ -33,7 +33,7 @@
 <meta name="theme-color" content="#ffffff">
 <meta name="viewport" content="initial-scale=0.66, user-scalable=no">
 <title><?=$site_title?></title>
-<script type="text/javascript" src="<?=$shared_path?>?lang=fr&amp;lib=kendo-ui-core|latest|default,bbn-vue"></script>
+<script type="text/javascript" src="<?=$shared_path?>?lang=fr&amp;lib=bbn-vue|latest|default"></script>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage">
