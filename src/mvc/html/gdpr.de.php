@@ -94,15 +94,6 @@
 <p>Wir beauftragen gegebenenfalls dritte Unternehmen und Einzelpersonen ("Leistungsanbieter") mit Unterstützungsleistungen zum einfacheren Angebot unseres Dienstes, mit der Erbringung von Leistungen in unserem Namen, mit der Erbringung von mit unserem Dienst verbundenen Leistungen oder mit Unterstützungsleistungen zur Analyse der Art und Weise, auf die unser Dienst in Anspruch genommen wird.</p>
 <p>Diese Dritten können auf Ihre personenbezogenen Daten nur in dem Umfang Zugriff nehmen, der für die Erfüllung der genannten Aufgaben in unserem Namen erforderlich ist, und dürfen diese für keine sonstigen Zwecke offenlegen oder nutzen.</p>
 
-<h3>Analytik</h3>
-<p>Wir beauftragen gegebenenfalls dritte Leistungsanbieter mit der Überwachung und Analyse der Nutzung unseres Dienstes.</p>    
-<ul>
-                <li>
-        <p><strong>Piwik / Matomo</strong></p>
-        <p>Piwik oder Matomo ist ein Web-Analytics-Dienst. Die Datenschutz-Richtlinie (Privacy Policy) des Anbieters kann unter folgendem Link eingesehen werden: <a href="https://matomo.org/privacy-policy">https://matomo.org/privacy-policy</a></p>
-    </li>
-                        </ul>
-
 
 <h2>Links zu anderen Websites</h2>
 <p>Unser Dienst kann Links zu anderen Websites enthalten, die nicht von uns betrieben werden. Wenn Sie auf einen Drittlink klicken, werden Sie direkt auf die Website des betreffenden Dritten weitergeleitet. Wir empfehlen Ihnen dringend, sich jeweils die Datenschutz-Richtlinien aller von Ihnen besuchten Websites durchzulesen.</p>

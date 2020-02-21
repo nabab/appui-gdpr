@@ -96,14 +96,7 @@
 <p>Ces tiers n'ont accès à vos Données à Caractère Personnel que pour effectuer ces tâches en notre nom et il leur est interdit de les communiquer ou de les utiliser à quelle qu'autre fin. </p>
 
 <h3>Analyses</h3>
-<p>Nous pouvons faire appel à des Prestataires de Services tiers pour surveiller et analyser l'utilisation de notre Service.</p>    
-<ul>
-                <li>
-        <p><strong>Piwik / Matomo</strong></p>
-        <p>Piwik or Matomo est un service d'analyse web. Vous pouvez consulter leur politique de confidentialité ici: <a href="https://matomo.org/privacy-policy">https://matomo.org/privacy-policy</a></p>
-    </li>
-                        </ul>
-
+<p>Nous pouvons faire appel à des Prestataires de Services tiers pour surveiller et analyser l'utilisation de notre Service.</p>
 
 <h2>Liens pointant vers d'autres sites</h2>
 <p>Il se peut que notre Service contienne des liens pointant vers d'autres sites que nous n'exploitons pas. Si vous cliquez sur un lien de tiers, vous serez redirigé vers le site de ce tiers. Nous vous recommandons vivement d'examiner la politique de confidentialité de chacun des sites que vous consultez.</p>
@@ -126,4 +119,4 @@
 <ul>
         <li>Par courrier électronique: <?=$privacy_email?></li>
           
-        </ul>
+</ul>

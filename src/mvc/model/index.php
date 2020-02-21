@@ -11,6 +11,5 @@ return [
   'static_path' => BBN_STATIC_PATH,
   'test' => BBN_IS_DEV ? 1 : 0,
   'year' => date('Y'),
-  'client_name' => BBN_CLIENT_NAME,
   'privacy_email' => defined('BBN_PRIVACY_EMAIL') ? BBN_PRIVACY_EMAIL : 'privacy@'.gethostname()
 ];

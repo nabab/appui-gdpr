@@ -78,16 +78,6 @@
 <p>We may employ third party companies and individuals to facilitate our Service ("Service Providers"), to provide the Service on our behalf, to perform Service-related services or to assist us in analyzing how our Service is used.</p>
 <p>These third parties have access to your Personal Data only to perform these tasks on our behalf and are obligated not to disclose or use it for any other purpose.</p>
 
-<h3>Analytics</h3>
-<p>We may use third-party Service Providers to monitor and analyze the use of our Service.</p>    
-<ul>
-                <li>
-        <p><strong>Piwik or Matomo</strong></p>
-        <p>Piwik or Matomo is a web analytics service. You can visit their Privacy Policy page here: <a href="https://matomo.org/privacy-policy">https://matomo.org/privacy-policy</a></p>
-    </li>
-                    </ul>
-
-
 <h2>Links To Other Sites</h2>
 <p>Our Service may contain links to other sites that are not operated by us. If you click on a third party link, you will be directed to that third party's site. We strongly advise you to review the Privacy Policy of every site you visit.</p>
 <p>We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.</p>

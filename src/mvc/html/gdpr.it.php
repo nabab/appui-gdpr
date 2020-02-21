@@ -94,16 +94,6 @@
 <p>Potremmo impiegare società e individui di terze parti per facilitare il nostro Servizio ("Fornitori di servizi"), per fornire il Servizio per nostro conto, per eseguire servizi relativi ai Servizi o per aiutarci ad analizzare come viene utilizzato il nostro Servizio.</p>
 <p>Le terze parti hanno accesso ai vostri Dati personali solo per eseguire queste attività per nostro conto e sono obbligate a non rivelarle o utilizzarle per altri scopi.</p>
 
-<h3>Statistiche</h3>
-<p>Potremmo utilizzare i Fornitori di servizi di terze parti per monitorare e analizzare l'utilizzo del nostro servizio.</p>    
-<ul>
-                <li>
-        <p><strong>Piwik / Matomo</strong></p>
-        <p>Piwik o Matomo è un servizio di statistica web. È possibile visitare la loro pagina sull'Informativa sulla privacy qui: <a href="https://matomo.org/privacy-policy">https://matomo.org/privacy-policy</a></p>
-    </li>
-                        </ul>
-
-
 <h2>Link ad altri siti</h2>
 <p>OIl nostro servizio può contenere collegamenti ad altri siti non gestiti da noi. Cliccando su un link di terze parti, sarete indirizzati al sito di quella terza parte. Ti consigliamo vivamente di rivedere l'Informativa sulla privacy di ogni sito che visiti.</p>
 <p>Non abbiamo alcun controllo e non ci assumiamo alcuna responsabilità per il contenuto, le politiche sulla privacy o le pratiche di qualsiasi sito o servizio di terzi.</p>

@@ -95,16 +95,6 @@ Servicio y mejorarlo.</p>
 <p>Podemos contratar a personas físicas y jurídicas terceras para facilitar nuestro Servicio ("Proveedores de servicios"), para que presten el Servicio en nuestro nombre, para que suministren servicios relacionados con el Servicio o para que nos ayuden a analizar cómo se utiliza nuestro Servicio.</p>
 <p>Estos terceros tienen acceso a sus Datos personales únicamente para realizar estas tareas en nuestro nombre y están obligados a no divulgarlos ni utilizarlos con ningún otro fin.</p>
 
-<h3>Análisis</h3>
-<p>Podemos utilizar Proveedores de servicios terceros para controlar y analizar el uso de nuestro Servicio.</p>    
-<ul>
-                <li>
-        <p><strong>Piwik / Matomo</strong></p>
-        <p>Piwik o Matomo es un servicio de analítica web. Puede visitar la página de su Política de privacidad aquí: <a href="https://matomo.org/privacy-policy">https://matomo.org/privacy-policy</a></p>
-    </li>
-                        </ul>
-
-
 <h2>Enlaces a otros sitios</h2>
 <p>Nuestro Servicio puede contener enlaces a otros sitios no operados por nosotros. Si hace clic en el enlace de un tercero, será dirigido al sitio de ese tercero. Le recomendamos encarecidamente que revise la Política de privacidad de todos los sitios que visite.</p>
 <p>No tenemos ningún control ni asumimos responsabilidad alguna con respecto al contenido, las políticas o prácticas de privacidad de sitios o servicios de terceros.</p>

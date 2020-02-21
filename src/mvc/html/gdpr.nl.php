@@ -95,16 +95,6 @@
 <p>Wij kunnen externe bedrijven en personen aanstellen om onze Dienst ("Dienstverleners") te vereenvoudigen, om de Dienst te leveren in onze naam, om diensten uit te voeren in het kader van onze Dienst of om ons te helpen bij de analyse van hoe onze Dienst wordt gebruikt.</p>
 <p>Deze externe partijen hebben enkel toegang tot uw Persoonsgegevens om deze taken uit te voeren in onze naam en zij mogen deze niet openbaar maken aan anderen of ze gebruiken voor andere doeleinden.</p>
 
-<h3>Analytics</h3>
-<p>Wij kunnen beroep doen op externe Dienstverleners om het gebruik van onze Dienst te volgen en te analyseren.</p>    
-<ul>
-                <li>
-        <p><strong>Piwik / Matomo</strong></p>
-        <p>Piwik of Matomo is een webanalyse-service. Hier kunt u hun Privacybeleid pagina raadplegen: <a href="https://matomo.org/privacy-policy">https://matomo.org/privacy-policy</a></p>
-    </li>
-                        </ul>
-
-
 <h2>Links naar andere sites</h2>
 <p>Onze Dienst kan links bevatten naar andere sites die niet door ons worden beheerd. Als u klikt op een link van een externe partij wordt u naar de site van die externe partij gebracht. Wij raden u sterk aan het Privacybeleid te verifiëren van elke site die u bezoekt.</p>
 <p>Wij hebben geen controle over en aanvaarden geen aansprakelijkheid met betrekking tot de inhoud, het privacybeleid of de privacypraktijken van de sites of diensten van een externe partij.</p>

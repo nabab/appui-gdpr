@@ -51,7 +51,7 @@
   </div>
   <div class="bbn-w-100 bbn-xxl bbn-c">
     <div class="bbn-iblock bbn-lpadded">
-      <bbn-button @click="accept"><?=_("J'accepte, aller sur le site").' '.$site_url?></bbn-button>
+      <bbn-button @click="accept"><?=_("J'accepte, aller sur le site").' '.$site_title?></bbn-button>
     </div>
   </div>
 </div>
