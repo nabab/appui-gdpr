@@ -67,7 +67,6 @@
       methods: {
         accept(){
           bbn.fn.setCookie('<?=BBN_APP_NAME?>', {bbn_accept_cookie: true});
-          window.store.clearAll();
           document.location.reload();
         }
       }
