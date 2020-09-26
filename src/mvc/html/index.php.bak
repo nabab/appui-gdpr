@@ -31,16 +31,14 @@
 <meta name="msapplication-TileColor" content="#9f00a7">
 <meta name="msapplication-TileImage" content="<?=$static_path?>img/favicon/mstile-144x144.png">
 <meta name="theme-color" content="#ffffff">
-<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=yes">
+<meta name="viewport" content="initial-scale=0.66, user-scalable=no">
 <title><?=$site_title?></title>
 <script type="text/javascript" src="<?=$shared_path?>?lang=fr&amp;lib=bbn-css|latest|default,bbn-vue"></script>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage">
-<div id="eula"
-     class="bbn-overlay bbn-bg-white bbn-flex-height"
->
-  <div class="bbn-w-100 bbn-justified bbn-lg bbn-hpadded">
+<div class="bbn-overlay bbn-bg-white  bbn-flex-height" id="eula">
+  <div class="bbn-w-100 bbn-justified bbn-lg bbn-lpadded">
     <h2 class="bbn-c">Avertissement</h2>
     <p>Ce site utilise des cookies. Veuillez lire et accepter les termes de notre politique de confidentialité afin de pouvoir y accéder.</p>
   </div>
@@ -51,9 +49,9 @@
       </div>
     </bbn-scroll>
   </div>
-  <div class="bbn-w-100 bbn-c">
+  <div class="bbn-w-100 bbn-xxl bbn-c">
     <div class="bbn-iblock bbn-lpadded">
-      <bbn-button class="bbn-lg" @click="accept"><?=_("J'accepte, aller sur le site").' '.$site_title?></bbn-button>
+      <bbn-button @click="accept"><?=_("J'accepte, aller sur le site").' '.$site_title?></bbn-button>
     </div>
   </div>
 </div>
@@ -66,24 +64,10 @@
     });
     new Vue({
       el: '#eula',
-      data(){
-        return {
-          isMobile: bbn.fn.isMobile(),
-          isTablet: bbn.fn.isTabletDevice()
-        }
-      },
       methods: {
         accept(){
           bbn.fn.setCookie('<?=BBN_APP_NAME?>', {bbn_accept_cookie: true});
           document.location.reload();
-        }
-      },
-      created(){
-        if ( this.isMobile ){
-          document.body.classList.add('bbn-mobile');
-        }
-        if ( this.isTablet ){
-          document.body.classList.add('bbn-tablet');
         }
       }
     })
