@@ -5,6 +5,6 @@
  * Time: 14:28
  */
 
-/** @var \bbn\mvc\controller $ctrl The current controller */
+/** @var \bbn\Mvc\Controller $ctrl The current controller */
 
 $ctrl->combo("Terms and conditions for privacy protection");

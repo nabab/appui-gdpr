@@ -1,5 +1,5 @@
 <?php
-/** @var \bbn\mvc\model $model */
+/** @var \bbn\Mvc\Model $model */
 return [
   'version' => '20170118',
   'site_url' => substr(BBN_URL, 0, -1),

@@ -45,7 +45,7 @@ Servicio y mejorarlo.</p>
 
 <h4>Datos de uso</h4>
 
-<p>También recopilamos información sobre la forma en la que se accede y utiliza el Servicio («Datos de uso»). Estos Datos de uso pueden incluir información como la dirección del protocolo de Internet de su ordenador (por ejemplo, dirección IP), tipo de navegador, versión del navegador, las páginas que visita de nuestro Servicio, la hora y la fecha de su visita, el tiempo que pasa en esas páginas, identificadores exclusivos de dispositivos y otros datos de diagnóstico.</p>
+<p>También recopilamos información sobre la forma en la que se accede y utiliza el Servicio («Datos de uso»). Estos Datos de uso pueden incluir información como la dirección del protocolo de Internet de su ordenador (por ejemplo, Dirección IP), tipo de navegador, versión del navegador, las páginas que visita de nuestro Servicio, la hora y la fecha de su visita, el tiempo que pasa en esas páginas, Identificadores exclusivos de dispositivos y otros datos de diagnóstico.</p>
 
 <h4>Datos de cookies y seguimiento</h4>
 <p>Utilizamos cookies y tecnologías de seguimiento similares para rastrear la actividad de nuestro Servicio y mantener determinada información.</p>
