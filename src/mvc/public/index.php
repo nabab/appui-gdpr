@@ -7,4 +7,4 @@
 
 /** @var \bbn\Mvc\Controller $ctrl The current controller */
 
-$ctrl->combo("Terms and conditions for privacy protection");
+$ctrl->combo(_("Terms and conditions for privacy protection"));
