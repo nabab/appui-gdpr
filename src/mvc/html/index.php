@@ -59,7 +59,7 @@
 </div>
 <script>  
   document.addEventListener('DOMContentLoaded', () => {  
-    bbn.fn.init({
+    bbn.vue.init({
       env: {
         lang: "fr"
       }
