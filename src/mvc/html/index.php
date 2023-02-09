@@ -3,7 +3,7 @@
 <!--[if IE 7 ]>    <html class="ie ie7 no-js" lang="fr"> <![endif]-->
 <!--[if IE 8 ]>    <html class="ie ie8 no-js" lang="fr"> <![endif]-->
 <!--[if IE 9 ]>    <html class="ie ie9 no-js" lang="fr"> <![endif]-->
-<!--[if gt IE 9]><!--><html class="no-js" lang="fr"><!--<![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="<?=$lang?>"><!--<![endif]-->
 <head>
 
 <base href="<?=$site_url?>/" target="_self">
@@ -33,7 +33,7 @@
 <meta name="theme-color" content="#ffffff">
 <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, User-scalable=yes">
 <title><?=$site_title?></title>
-<script type="text/javascript" src="<?=$shared_path?>?lang=fr&amp;lib=bbn-css|latest|default,bbn-vue"></script>
+<script type="text/javascript" src="<?=$shared_path?>?lang=<?=$lang?>&amp;lib=bbn-css|latest|default,bbn-vue"></script>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage">
@@ -41,8 +41,8 @@
      class="bbn-overlay bbn-bg-white bbn-flex-height"
 >
   <div class="bbn-w-100 bbn-justified bbn-lg bbn-hpadded">
-    <h2 class="bbn-c">Avertissement</h2>
-    <p>Ce site utilise des cookies. Veuillez lire et accepter les termes de notre politique de confidentialité afin de pouvoir y accéder.</p>
+    <h2 class="bbn-c"><?=_("Warning")?></h2>
+    <p><?=_("This website uses cookies. Please read and accept the terms of our privacy policy in order to access it.")?></p>
   </div>
   <div class="bbn-flex-fill bbn-s">
     <bbn-scroll>
@@ -53,7 +53,7 @@
   </div>
   <div class="bbn-w-100 bbn-c">
     <div class="bbn-iblock bbn-lpadded">
-      <bbn-button class="bbn-lg" @click="accept"><?=_("J'accepte, aller sur le site").' '.$site_title?></bbn-button>
+      <bbn-button class="bbn-lg" @click="accept"><?=_("I accept, go to the site").' '.$site_title?></bbn-button>
     </div>
   </div>
 </div>
@@ -61,7 +61,7 @@
   document.addEventListener('DOMContentLoaded', () => {  
     bbn.vue.init({
       env: {
-        lang: "fr"
+        lang: "<?=$lang?>"
       }
     });
     new Vue({
