@@ -4,17 +4,17 @@
 <p>Ingangsdatum: 01/01/2018</p>
 
 
-<p><?=$client_name?> ("ons", "wij" of "onze") beheert de <em><strong><?=$site_url?></strong></em> website ("hierna genoemd Dienst").</p>
+<p><?= $client_name?> ("ons", "wij" of "onze") beheert de <em><strong><?=$site_url ?></strong></em> website ("hierna genoemd Dienst").</p>
 
 <p>Deze pagina bevat informatie over ons beleid met betrekking tot de verzameling, het gebruik en de openbaarmaking van uw persoonsgegevens wanneer u onze Dienst gebruikt en de keuzes die u hebt met betrekking tot die gegevens.</p>
 
-<p>Wij gebruiken uw gegevens om de Dienst te leveren en te verbeteren. Wanneer u de Dienst gebruikt, gaat u akkoord met de verzameling en het gebruik van informatie in overeenstemming met dit beleid. Tenzij anders bepaald in dit Privacybeleid heeft de terminologie die wordt gebruikt in dit Privacybeleid dezelfde betekenis als in onze Algemene voorwaarden, beschikbaar op <em><strong><?=$site_url?></strong></em></p>
+<p>Wij gebruiken uw gegevens om de Dienst te leveren en te verbeteren. Wanneer u de Dienst gebruikt, gaat u akkoord met de verzameling en het gebruik van informatie in overeenstemming met dit beleid. Tenzij anders bepaald in dit Privacybeleid heeft de terminologie die wordt gebruikt in dit Privacybeleid dezelfde betekenis als in onze Algemene voorwaarden, beschikbaar op <em><strong><?= $site_url ?></strong></em></p>
 
 <h2>Definities</h2>
 <ul>
     <li>
         <p><strong>Dienst</strong></p>
-                <p>Onder dienst verstaan wij de <em><strong><?=$site_url?></strong></em> website beheerd door <?=$client_name?></p>
+                <p>Onder dienst verstaan wij de <em><strong><?= $site_url?></strong></em> website beheerd door <?=$client_name ?></p>
             </li>
     <li>
         <p><strong>Gebruiksgegevens</strong></p>
@@ -58,7 +58,7 @@
 </ul>
 
 <h2>Gebruik van gegevens</h2> 
-<p><?=$client_name?> gebruikt de verzamelde gegevens voor uiteenlopende doeleinden:</p>
+<p><?= $client_name ?> gebruikt de verzamelde gegevens voor uiteenlopende doeleinden:</p>
 <ul>
     <li>Om onze Dienst te leveren en te onderhouden</li>
     <li>Om u wijzigingen in onze Dienst te melden</li>
@@ -74,15 +74,15 @@
 <p>Uw gegevens, inclusief Persoonsgegevens, kunnen worden overgedragen naar — en bewaard op — computers die zich buiten het rechtsgebied van uw provincie, land of een andere overheidsinstantie bevinden waar de wetgeving inzake gegevensbescherming kan verschillen van de wetgeving in uw rechtsgebied.</p>
 <p>Let erop dat, als u zich buiten France bevindt en u ons gegevens verstrekt, wij deze gegevens, inclusief Persoonsgegevens, overdragen naar France en ze daar verwerken.</p>
 <p>Uw instemming met dit Privacybeleid gevolgd door uw indiening van dergelijke gegevens geven aan dat u akkoord gaat met die overdracht.</p>
-<p><?=$client_name?> zal alle redelijkerwijs noodzakelijke stappen ondernemen om ervoor te zorgen dat uw gegevens veilig en in overeenstemming met dit Privacybeleid worden behandeld en dat uw Persoonsgegevens nooit worden overgedragen aan een organisatie of een land als er geen gepaste controles zijn ingesteld, inclusief de veiligheid van uw gegevens en andere persoonsgegevens.</p>
+<p><?= $client_name ?> zal alle redelijkerwijs noodzakelijke stappen ondernemen om ervoor te zorgen dat uw gegevens veilig en in overeenstemming met dit Privacybeleid worden behandeld en dat uw Persoonsgegevens nooit worden overgedragen aan een organisatie of een land als er geen gepaste controles zijn ingesteld, inclusief de veiligheid van uw gegevens en andere persoonsgegevens.</p>
 
 <h2>Openbaarmaking van gegevens</h2>
 
 <h3>Wettelijke vereisten</h3>
-<p><?=$client_name?> kan uw Persoonsgegevens openbaar maken als het te goeder trouw de mening is toegedaan dat een dergelijke handeling noodzakelijk is:</p>
+<p><?= $client_name ?> kan uw Persoonsgegevens openbaar maken als het te goeder trouw de mening is toegedaan dat een dergelijke handeling noodzakelijk is:</p>
 <ul>
     <li>Om te voldoen aan een wettelijke verplichting</li>
-    <li>Om de rechten en eigendom van <?=$client_name?> te beschermen en te verdedigen</li>
+    <li>Om de rechten en eigendom van <?= $client_name ?> te beschermen en te verdedigen</li>
     <li>Om mogelijke misstanden te voorkomen of te onderzoeken in verband met de Dienst</li>
     <li>Om de persoonlijke veiligheid van gebruikers van de Dienst of het publiek te beschermen</li>
     <li>Als bescherming tegen juridische aansprakelijkheid</li>
@@ -114,6 +114,6 @@
 <h2>Contact opnemen</h2>
 <p>Als u vragen hebt over dit Privacybeleid kunt u contact opnemen met ons:</p>
 <ul>
-        <li>Via email: <?=$privacy_email?></li>
+        <li>Via email: <?= $privacy_email ?></li>
           
         </ul>

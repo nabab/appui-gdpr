@@ -4,17 +4,17 @@
 <p>Data di entrata in vigore: 01/01/2018</p>
 
 
-<p><?=$client_name?> ("noi" o "nostro") gestisce il <em><strong><?=$site_url?></strong></em> sito web (in appresso il "Servizio").</p>
+<p><?= $client_name?> ("noi" o "nostro") gestisce il <em><strong><?=$site_url ?></strong></em> sito web (in appresso il "Servizio").</p>
 
 <p>Questa pagina vi informa delle nostre politiche riguardanti la raccolta, l'uso e la divulgazione dei dati personali quando usate il nostro Servizio e le scelte che avete associato a quei dati.</p>
 
-<p>Utilizziamo i vostri dati per fornire e migliorare il Servizio. Utilizzando il Servizio, accettate la raccolta e l'utilizzo delle informazioni in conformità con questa informativa. Se non diversamente definito nella presente Informativa sulla privacy, i termini utilizzati nella presente Informativa hanno la stessa valenza dei nostri Termini e condizioni, accessibili da <em><strong><?=$site_url?></strong></em></p>
+<p>Utilizziamo i vostri dati per fornire e migliorare il Servizio. Utilizzando il Servizio, accettate la raccolta e l'utilizzo delle informazioni in conformità con questa informativa. Se non diversamente definito nella presente Informativa sulla privacy, i termini utilizzati nella presente Informativa hanno la stessa valenza dei nostri Termini e condizioni, accessibili da <em><strong><?= $site_url ?></strong></em></p>
 
 <h2>Definizioni</h2>
 <ul>
     <li>
         <p><strong>Servizio</strong></p>
-                <p>Il Servizio è il sito <em><strong><?=$site_url?></strong></em> gestito da <?=$client_name?></p>
+                <p>Il Servizio è il sito <em><strong><?= $site_url?></strong></em> gestito da <?=$client_name ?></p>
             </li>
     <li>
         <p><strong>Dati personali</strong></p>
@@ -58,7 +58,7 @@
 </ul>
 
 <h2>Uso dei dati</h2> 
-<p><?=$client_name?> utilizza i dati raccolti per vari scopi:</p>
+<p><?= $client_name ?> utilizza i dati raccolti per vari scopi:</p>
 <ul>
     <li>Per fornire e mantenere il nostro Servizio</li>
     <li>Per comunicare agli utenti variazioni apportate al servizio che offriamo</li>
@@ -73,15 +73,15 @@
 <p>Le vostre informazioni, compresi i Dati personali, possono essere trasferite a - e mantenute su - computer situati al di fuori del vostro stato, provincia, nazione o altra giurisdizione governativa dove le leggi sulla protezione dei dati possono essere diverse da quelle della vostra giurisdizione.</p>
 <p>Se ci si trova al di fuori di France e si sceglie di fornire informazioni a noi, si ricorda che trasferiamo i dati, compresi i dati personali, in France e li elaboriamo lì.</p>
 <p>Il vostro consenso alla presente Informativa sulla privacy seguito dall'invio di tali informazioni rappresenta il vostro consenso al trasferimento.</p>
-<p><?=$client_name?> adotterà tutte le misure ragionevolmente necessarie per garantire che i vostri dati siano trattati in modo sicuro e in conformità con la presente Informativa sulla privacy e nessun trasferimento dei vostri Dati Personali sarà effettuato a un'organizzazione o a un paese a meno che non vi siano controlli adeguati dei vostri dati e altre informazioni personali.</p>
+<p><?= $client_name ?> adotterà tutte le misure ragionevolmente necessarie per garantire che i vostri dati siano trattati in modo sicuro e in conformità con la presente Informativa sulla privacy e nessun trasferimento dei vostri Dati Personali sarà effettuato a un'organizzazione o a un paese a meno che non vi siano controlli adeguati dei vostri dati e altre informazioni personali.</p>
 
 <h2>Divulgazione di dati</h2>
 
 <h3>Prescrizioni di legge</h3>
-<p><?=$client_name?> può divulgare i vostri Dati personali in buona fede, ritenendo che tale azione sia necessaria per:</p>
+<p><?= $client_name ?> può divulgare i vostri Dati personali in buona fede, ritenendo che tale azione sia necessaria per:</p>
 <ul>
     <li>Rispettare un obbligo legale</li>
-    <li>Proteggere e difendere i diritti o la proprietà di <?=$client_name?></li>
+    <li>Proteggere e difendere i diritti o la proprietà di <?= $client_name ?></li>
     <li>Prevenire o investigare possibili illeciti in relazione al Servizio</li>
     <li>Proteggere la sicurezza personale degli utenti del Servizio o del pubblico</li>
     <li>Proteggere contro la responsabilità legale</li>
@@ -113,6 +113,6 @@
 <h2>Contattaci</h2>
 <p>In caso di domande sulla presente Informativa sulla privacy, si prega di contattarci:</p>
 <ul>
-        <li>Tramite e-mail: <?=$privacy_email?></li>
+        <li>Tramite e-mail: <?= $privacy_email ?></li>
           
         </ul>

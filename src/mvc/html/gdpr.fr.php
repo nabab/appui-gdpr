@@ -4,17 +4,17 @@
 <p>Date de prise d'effet: 01/01/2018</p>
 
 
-<p><?=$client_name?> ("nous", "notre", "nos") exploite le site web <em><strong><?=$site_url?></strong></em> (ci-après désigné par le terme "Service").</p>
+<p><?= $client_name?> ("nous", "notre", "nos") exploite le site web <em><strong><?=$site_url ?></strong></em> (ci-après désigné par le terme "Service").</p>
 
 <p>Cette page vous explique nos politiques en matière de collecte, d'utilisation et de communication des données à caractère personnel lorsque vous utilisez notre Service ainsi que les choix qui s'offrent à vous en ce qui concerne ces données.</p>
 
-<p>Nous utilisons vos données pour fournir et améliorer le Service. En utilisant le Service, vous consentez à la collecte et à l'utilisation d'informations conformément à la présente politique. Sauf définition contraire dans la présente Politique de Confidentialité, les termes utilisés dans la présente Politique de Confidentialité ont la même signification que dans nos Conditions Générales qui sont disponibles sur <em><strong><?=$site_url?></strong></em></p>
+<p>Nous utilisons vos données pour fournir et améliorer le Service. En utilisant le Service, vous consentez à la collecte et à l'utilisation d'informations conformément à la présente politique. Sauf définition contraire dans la présente Politique de Confidentialité, les termes utilisés dans la présente Politique de Confidentialité ont la même signification que dans nos Conditions Générales qui sont disponibles sur <em><strong><?= $site_url ?></strong></em></p>
 
 <h2>Définitions</h2>
 <ul>
     <li>
         <p><strong>Service</strong></p>
-                <p>Par Service on entend le site web <em><strong><?=$site_url?></strong></em> exploité par <?=$client_name?></p>
+                <p>Par Service on entend le site web <em><strong><?= $site_url?></strong></em> exploité par <?=$client_name ?></p>
             </li>
     <li>
         <p><strong>Données à caractère personnel</strong></p>
@@ -59,7 +59,7 @@
 
 <h2>Utilisation des données</h2> 
 
-<p><?=$client_name?> utilise les données recueillies à des fins diverses:</p>
+<p><?= $client_name ?> utilise les données recueillies à des fins diverses:</p>
 <ul>
     <li>Pour fournir et assurer notre Service</li>
     <li>Pour vous faire part des changements apportés à notre Service</li>
@@ -74,15 +74,15 @@
 <p>Les informations vous concernant, notamment vos Données à Caractère Personnel, peuvent être transférées de votre région, province, pays, ou autre division territoriale vers des ordinateurs – et stockées sur ces derniers – situés à un endroit où la législation relative à la protection des données diffère de celle du territoire où vous résidez.</p>
 <p>Si vous résidez hors de/du France et que vous choisissez de nous communiquer des informations, sachez que nous transférons les données, y compris les Données à Caractère Personnel, vers le/la France et que nous les y traitons.</p>
 <p>En acceptant la présente Politique de Confidentialité puis en soumettant ces informations, vous consentez à ce transfert.</p>
-<p><?=$client_name?> prendra toutes les mesures raisonnablement nécessaires pour faire en sorte que vos données soient traitées de manière sécurisée et conformément à la présente Politique de Confidentialité et vos Données à Caractère Personnel ne seront transférées vers aucune organisation ni aucun pays à moins que des contrôles adéquats ne soient en place, notamment en ce qui concerne la sécurité de vos données et d'autres données personnelles.</p>
+<p><?= $client_name ?> prendra toutes les mesures raisonnablement nécessaires pour faire en sorte que vos données soient traitées de manière sécurisée et conformément à la présente Politique de Confidentialité et vos Données à Caractère Personnel ne seront transférées vers aucune organisation ni aucun pays à moins que des contrôles adéquats ne soient en place, notamment en ce qui concerne la sécurité de vos données et d'autres données personnelles.</p>
 
 <h2>Communication de données</h2>
 
 <h3>Exigences légales</h3>
-<p><?=$client_name?> peut communiquer vos Données à Caractère Personnel si elle estime de bonne foi que cela est nécessaire pour:</p>
+<p><?= $client_name ?> peut communiquer vos Données à Caractère Personnel si elle estime de bonne foi que cela est nécessaire pour:</p>
 <ul>
     <li>S'acquitter d'une obligation légale</li>
-    <li>Protéger et défendre les droits ou les biens de <?=$client_name?></li>
+    <li>Protéger et défendre les droits ou les biens de <?= $client_name ?></li>
     <li>Prévenir d'éventuels actes répréhensibles ou enquêter sur de tels actes dans le cadre du Service </li>
     <li>Assurer la sécurité personnelle des utilisateurs du Service ou du public</li>
     <li>Se protéger contre la responsabilité civile</li>
@@ -117,6 +117,6 @@
 <h2>Nous contacter</h2>
 <p>Pour toute question relative à la présente Politique de Confidentialité, veuillez nous contacter:</p>
 <ul>
-        <li>Par courrier électronique: <?=$privacy_email?></li>
+        <li>Par courrier électronique: <?= $privacy_email ?></li>
           
 </ul>

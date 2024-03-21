@@ -4,17 +4,17 @@
 <p>Datum des Inkrafttretens: 01/01/2018</p>
 
 
-<p><?=$client_name?> ("wir", "uns", "unser" usw.) betreibt die Website <em><strong><?=$site_url?></strong></em> (nachstehend als "Dienst" bezeichnet).</p>
+<p><?= $client_name?> ("wir", "uns", "unser" usw.) betreibt die Website <em><strong><?=$site_url ?></strong></em> (nachstehend als "Dienst" bezeichnet).</p>
 
 <p>Diese Seite enthält Informationen zu der Art und Weise, auf welche wir personenbezogene Daten erfassen, nutzen und offenlegen, wenn Sie unseren Dienst nutzen, sowie zu den Optionen, die Ihnen im Zusammenhang mit diesen Daten zur Verfügung stehen.</p>
 
-<p>Wir nutzen Ihre Daten zur Bereitstellung und Verbesserung unseres Dienstes. Durch Inanspruchnahme des Dienstes erklären Sie sich mit der Erfassung und Nutzung von Daten durch uns nach Maßgabe dieser Richtlinie einverstanden. Soweit in dieser Datenschutz-Richtlinie nicht jeweils etwas anderes angegeben ist, kommt den in dieser Datenschutz-Richtlinie vorkommenden Begriffen jeweils dieselbe Bedeutung zu, die diesen in unseren Allgemeinen Geschäftsbedingungen (Terms and Conditions) (abrufbar über die  <em><strong><?=$site_url?></strong></em>) zugewiesen wurde.</p>
+<p>Wir nutzen Ihre Daten zur Bereitstellung und Verbesserung unseres Dienstes. Durch Inanspruchnahme des Dienstes erklären Sie sich mit der Erfassung und Nutzung von Daten durch uns nach Maßgabe dieser Richtlinie einverstanden. Soweit in dieser Datenschutz-Richtlinie nicht jeweils etwas anderes angegeben ist, kommt den in dieser Datenschutz-Richtlinie vorkommenden Begriffen jeweils dieselbe Bedeutung zu, die diesen in unseren Allgemeinen Geschäftsbedingungen (Terms and Conditions) (abrufbar über die  <em><strong><?= $site_url ?></strong></em>) zugewiesen wurde.</p>
 
 <h2>Begriffsbestimmungen</h2>
 <ul>
     <li>
         <p><strong>Dienst</strong></p>
-                <p>Der Dienst ist die von dem <?=$client_name?> betriebene Website <em><strong><?=$site_url?></strong></em></p>
+                <p>Der Dienst ist die von dem <?= $client_name?> betriebene Website <em><strong><?=$site_url ?></strong></em></p>
             </li>
     <li>
         <p><strong>Personenbezogene Daten</strong></p>
@@ -58,7 +58,7 @@
 </ul>
 
 <h2>Datennutzung</h2> 
-<p>Wir bei <?=$client_name?> nutzen die erfassten Daten für verschiedene Zwecke, beispielsweise um:</p>
+<p>Wir bei <?= $client_name ?> nutzen die erfassten Daten für verschiedene Zwecke, beispielsweise um:</p>
 <ul>
     <li>Ihnen unseren Dienst zur Verfügung zu stellen und diesen aufrecht zu erhalten;</li>
     <li>Ihnen Änderungen in Bezug auf unseren Dienst mitzuteilen;</li>
@@ -73,15 +73,15 @@
 <p>Ihre Daten, einschließlich personenbezogener Daten, können auf Computer übertragen – und auf solchen aufbewahrt – werden, die sich außerhalb Ihres Heimatstaates, Ihrer Heimatprovinz, Ihres Heimatlandes oder einer sonstigen Rechtsordnung befinden und somit Datenschutzgesetzen unterliegen, die sich von den Datenschutzgesetzen in Ihrer Rechtsordnung unterscheiden.</p>
 <p>Falls Sie sich außerhalb von France befinden und sich dazu entscheiden, Daten an uns zu übermitteln, müssen Sie zur Kenntnis nehmen, dass wir Ihre Daten, einschließlich personenbezogener Daten, nach France übertragen und diese dort verarbeiten.</p>
 <p>Ihre Zustimmung zu dieser Datenschutz-Richtlinie und eine nachfolgende Übermittlung von Daten Ihrerseits stellt eine Einverständniserklärung Ihrerseits zu der genannten Übertragung dar.</p>
-<p><?=$client_name?> wird alle im zumutbaren Rahmen erforderlichen Schritte unternehmen um sicherzustellen, dass Ihre Daten auf sichere Weise sowie in Übereinstimmung mit dieser Datenschutz-Richtlinie behandelt werden, und dass Ihre personenbezogenen Daten nicht an Organisationen oder in Länder übertragen werden, hinsichtlich welcher keine hinreichenden Kontrollmechanismen in Bezug auf die Sicherheit Ihrer Daten und sonstigen personenbezogenen Informationen vorliegen.</p>
+<p><?= $client_name ?> wird alle im zumutbaren Rahmen erforderlichen Schritte unternehmen um sicherzustellen, dass Ihre Daten auf sichere Weise sowie in Übereinstimmung mit dieser Datenschutz-Richtlinie behandelt werden, und dass Ihre personenbezogenen Daten nicht an Organisationen oder in Länder übertragen werden, hinsichtlich welcher keine hinreichenden Kontrollmechanismen in Bezug auf die Sicherheit Ihrer Daten und sonstigen personenbezogenen Informationen vorliegen.</p>
 
 <h2>Offenlegung von Daten</h2>
 
 <h3>Gesetzliche Anforderungen</h3>
-<p><?=$client_name?> kann Ihre personenbezogenen Daten unter Umständen offenlegen, wenn es unter Beachtung der Grundsätze von Treu und Glauben der Ansicht ist, dass dies zur Erreichung der nachfolgenden Zielsetzungen erforderlich ist:</p>
+<p><?= $client_name ?> kann Ihre personenbezogenen Daten unter Umständen offenlegen, wenn es unter Beachtung der Grundsätze von Treu und Glauben der Ansicht ist, dass dies zur Erreichung der nachfolgenden Zielsetzungen erforderlich ist:</p>
 <ul>
     <li>zur Erfüllung einer gesetzlichen Pflicht</li>
-    <li>zum Schutz und zur Verteidigung der Rechte oder des Eigentums von <?=$client_name?></li>
+    <li>zum Schutz und zur Verteidigung der Rechte oder des Eigentums von <?= $client_name ?></li>
     <li>zur Vermeidung oder Untersuchung möglicher Fehlverhaltensweisen in Bezug auf den Dienst </li>
     <li>zum Schutz der persönlichen Sicherheit der Nutzer des Dienstes oder der Öffentlichkeit</li>
     <li>zur Vermeidung von Haftungsansprüchen</li>
@@ -114,6 +114,6 @@
 <h2>Kontaktaufnahme</h2>
 <p>Falls Sie Fragen zu dieser Datenschutz-Richtlinie haben, können Sie wie folgt Kontakt zu uns aufnehmen:</p>
 <ul>
-        <li>Per E-Mail: <?=$privacy_email?></li>
+        <li>Per E-Mail: <?= $privacy_email ?></li>
           
         </ul>
