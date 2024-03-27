@@ -35,7 +35,7 @@
 <title><?= $site_title ?></title>
 <script type="text/javascript" src="<?=
     ($shared_path ?? constant('BBN_SHARED_PATH'))
-    . 'dev/bbn-cp/v2/dist/bbn-cp.js?' 
+    . 'lib/bbn-cp/v2/dist/bbn-cp.js?' 
     . http_build_query([
       'lang' => $lang ?? constant('BBN_LANG'),
       'test' => constant('BBN_IS_DEV'),
