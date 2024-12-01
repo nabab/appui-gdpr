@@ -38,19 +38,19 @@
 
 <body itemscope itemtype="http://schema.org/WebPage">
 <div class="bbn-overlay bbn-bg-white  bbn-flex-height" id="eula">
-  <div class="bbn-w-100 bbn-justified bbn-lg bbn-lpadded">
+  <div class="bbn-w-100 bbn-justified bbn-lg bbn-lpadding">
     <h2 class="bbn-c">Avertissement</h2>
     <p>Ce site utilise des cookies. Veuillez lire et accepter les termes de notre politique de confidentialité afin de pouvoir y accéder.</p>
   </div>
   <div class="bbn-flex-fill bbn-s">
     <bbn-scroll>
-      <div class="bbn-hlpadded">
+      <div class="bbn-hlpadding">
         <?php include './gdpr.'.BBN_LANG.'.php'; ?>
       </div>
     </bbn-scroll>
   </div>
   <div class="bbn-w-100 bbn-xxl bbn-c">
-    <div class="bbn-iblock bbn-lpadded">
+    <div class="bbn-iblock bbn-lpadding">
       <bbn-button @click="accept"><?= _("J'accepte, aller sur le site").' '.$site_title ?></bbn-button>
     </div>
   </div>

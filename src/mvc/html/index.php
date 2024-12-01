@@ -46,19 +46,19 @@
 <body itemscope itemtype="http://schema.org/WebPage">
 <div id="eula"
      class="bbn-overlay bbn-bg-white bbn-flex-height">
-  <div class="bbn-w-100 bbn-justified bbn-lg bbn-hpadded">
+  <div class="bbn-w-100 bbn-justified bbn-lg bbn-hpadding">
     <h2 class="bbn-c"><?= _("Warning") ?></h2>
     <p><?= _("This website uses cookies. Please read and accept the terms of our privacy policy in order to access it.") ?></p>
   </div>
   <div class="bbn-flex-fill bbn-s">
     <bbn-scroll>
-      <div class="bbn-hlpadded">
+      <div class="bbn-hlpadding">
         <?php include './gdpr.'.BBN_LANG.'.php'; ?>
       </div>
     </bbn-scroll>
   </div>
   <div class="bbn-w-100 bbn-c">
-    <div class="bbn-iblock bbn-lpadded">
+    <div class="bbn-iblock bbn-lpadding">
       <bbn-button class="bbn-lg" @click="accept"><?= _("I accept, go to the site").' '.$site_title ?></bbn-button>
     </div>
   </div>
