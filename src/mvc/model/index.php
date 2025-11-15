@@ -1,8 +1,9 @@
 <?php
+use bbn\Str;
 /** @var bbn\Mvc\Model $model */
 return [
   'version' => '20170118',
-  'site_url' => substr(BBN_URL, 0, -1),
+  'site_url' => Str::sub(BBN_URL, 0, -1),
   'site_title' => BBN_SITE_TITLE,
   'is_dev' => (bool)BBN_IS_DEV,
   'is_prod' => (bool)BBN_IS_PROD,
